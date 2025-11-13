@@ -85,5 +85,21 @@ Clone your project:
 git clone https://github.com/RishabhMaurya3/HealthLedger.git
 cd HealthLedger
 
+---
+
+## ⚙️ Prerequisites (Install These Once Only)
+
+Install all dependencies **inside WSL Ubuntu** (recommended).
+
+---
+
+### **1. Docker + Docker Compose**  
+Required for running Hyperledger Fabric.
+
+```bash
+sudo apt update
+sudo apt install docker.io docker-compose -y
+sudo usermod -aG docker $USER
+
 
 
